@@ -5,16 +5,11 @@ namespace RaceGame
 {
     public class GameManager : MonoBehaviour
     {
-        [SerializeField]
-        private StartTimer _startTimer;
-        [SerializeField]
-        private RaceTimer _raceTimer;
-        [SerializeField]
-        private CarController _carController;
-        [SerializeField]
-        private ResultsTable _resultsTable;
-        [SerializeField]
-        private Results _resultsSO;
+        [SerializeField] private StartTimer _startTimer;
+        [SerializeField] private RaceTimer _raceTimer;
+        [SerializeField] private CarController _carController;
+        [SerializeField] private ResultsTable _resultsTable;
+        [SerializeField] private Results _resultsSO;
 
         private Vector3 _carStartPosition = default;
         private Quaternion _carStartRotation = default;
